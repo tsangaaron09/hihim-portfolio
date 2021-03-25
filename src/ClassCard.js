@@ -3,7 +3,7 @@ import React from "react";
 const ClassCard = (props) => {
   return (
     <div
-      class="ui card"
+      className="ui card"
       style={{
         backgroundColor: "#37236A",
         height: "30vh",
@@ -15,13 +15,13 @@ const ClassCard = (props) => {
         boxShadow: "1px 2px 2px 2px #999999",
       }}
     >
-      <div class="content">
-        <div class="header" style={{ color: "white", textAlign: "center" }}>
+      <div className="content">
+        <div className="header" style={{ color: "white", textAlign: "center" }}>
           {props.classCode}
         </div>
         <hr style={{ height: "1px", backgroundColor: "white" }} />
         <div
-          class="description"
+          className="description"
           style={{ color: "white", textAlign: "center" }}
         >
           {props.classDesc}

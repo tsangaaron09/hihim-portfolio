@@ -2,15 +2,15 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Header from "./Header";
 import ClassCard from "./ClassCard";
+import { classes } from "./classes";
+import "./index.css";
+import Branding from "./Branding";
 
 const App = () => {
+  console.log(classes.key);
   return (
-    <div style={{ margin: "8vh", display: "flex", flexDirection: "column" }}>
-      <img
-        style={{ width: "30vh", height: "5vh", alignSelf: "flex-end" }}
-        alt="uw-healthservices-logo"
-        src="https://d3bnk79bkod1sv.cloudfront.net/Organization/fb2980ba-98ff-4cfd-8f4c-ab430171f43a/Images/a0c3a179-7d66-416d-9db2-4da11c17cdf5.jpg"
-      />
+    <div id="window">
+      <Branding />
       <Header />
       <h2 style={{ fontWeight: "normal" }}>Classes Taken</h2>
       <div

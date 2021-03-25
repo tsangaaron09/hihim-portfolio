@@ -1,0 +1,11 @@
+#branding {
+  width: 30vh;
+  height: 5vh;
+  align-self: flex-end;
+}
+
+#window {
+  margin: 8vh;
+  display: flex;
+  flex-direction: column;
+}
